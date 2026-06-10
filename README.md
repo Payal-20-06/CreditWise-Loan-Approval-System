@@ -273,7 +273,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The app will open at **http://localhost:8501** in your browser.
+The app will open at **[http://localhost:8501](http://localhost:8501)** in your browser.
+Live at → **[https://creditwise-insights.streamlit.app](https://creditwise-insights.streamlit.app/)**
 
 > ⚠️ **Required files:** Ensure `model.pkl`, `scaler.pkl`, `feature_names.pkl`, and `loan_approval_data.csv` are in the **same folder** as `app.py` before running.
 
