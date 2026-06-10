@@ -120,9 +120,9 @@ def apply_theme():
     
     /* Hide Streamlit default white header toolbar */
     header[data-testid="stHeader"] {{
-        display: none !important;
+    background: rgba(0,0,0,0) !important;
+    border: none !important;
     }}
-    
     /* Global Smooth transitions for elements */
     * {{
         transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
@@ -133,6 +133,12 @@ def apply_theme():
         background: {t['sidebar_bg']} !important;
         border-right: 1px solid {t['sidebar_border']} !important;
         transition: all 0.3s ease;
+    }}
+    [data-testid="collapsedControl"] {{
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 99999 !important;
     }}
     [data-testid="stSidebar"] * {{
         color: {t['text']} !important;
@@ -848,6 +854,7 @@ with st.sidebar:
             "📈 Model Analytics",
             "ℹ️ About Project"
         ],
+        key = "nav_radio",
         label_visibility="collapsed"
     )
     st.markdown("━━━━━━━━━━━━━━")
