@@ -5,19 +5,25 @@
 
 ---
 
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-creditwise--insights.streamlit.app-10B981?style=for-the-badge&logo=streamlit&logoColor=white)](https://creditwise-insights.streamlit.app/)
+
+> 🌐 **Live App:** [https://creditwise-insights.streamlit.app/](https://creditwise-insights.streamlit.app/)
+
+---
 ## 📌 Table of Contents
 
-- [Problem Statement](#-problem-statement)
-- [Project Solution](#-project-solution)
-- [Live App Features](#-live-app-features)
-- [Tech Stack](#-tech-stack)
-- [Machine Learning Models](#-machine-learning-models)
-- [Dataset](#-dataset)
-- [Feature Engineering](#-feature-engineering)
-- [Project Structure](#-project-structure)
-- [How to Run](#-how-to-run)
-- [Model Performance](#-model-performance)
-- [Developer](#-developer)
+- [Problem Statement](#problem-statement)
+- [Project Solution](#project-solution)
+- [Live App Features](#live-app-features)
+- [Tech Stack](#tech-stack)
+- [Machine Learning Models](#machine-learning-models)
+- [Dataset](#dataset)
+- [Feature Engineering](#feature-engineering)
+- [Serialised Artifacts](#serialised-artifacts)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Model Performance](#model-performance)
+- [Developer](#developer)
 
 ---
 
